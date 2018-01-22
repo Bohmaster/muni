@@ -1,0 +1,35 @@
+{
+  "name": "Novedad",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "default": ""
+    },
+    "descripcion": {
+      "type": "string",
+      "default": ""
+    },
+    "fotos": {
+      "type": [
+        "object"
+      ]
+    },
+    "cuerpo": {
+      "type": "string",
+      "default": ""
+    },
+    "fecha": {
+      "type": "date",
+      "default": null
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

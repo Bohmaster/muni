@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "nahuel.json"
+  },
+  "loopback-component-storage": {
+    "name": "loopback-component-storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "/home/whitehead/Desktop/Near/Old/work/compumusic/server/storage"
+  }
+}

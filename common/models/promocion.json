@@ -1,0 +1,38 @@
+{
+  "name": "Promocion",
+  "plural": "promociones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "default": ""
+    },
+    "descripcion": {
+      "type": "string",
+      "default": ""
+    },
+    "fotos": {
+      "type": [
+        "object"
+      ]
+    },
+    "fecha": {
+      "type": "date",
+      "default": null
+    }
+  },
+  "validations": [],
+  "relations": {
+    "comercio": {
+      "type": "belongsTo",
+      "model": "Comercio",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

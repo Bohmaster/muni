@@ -1,0 +1,24 @@
+{
+  "name": "Thing",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "attr": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "producto": {
+      "type": "belongsTo",
+      "model": "Producto",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

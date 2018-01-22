@@ -1,0 +1,42 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 6,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Categoria": 3,
+    "SubCategoria": 3,
+    "Comercio": 3,
+    "Usuario": 1,
+    "Thing": 1
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"admin\",\"password\":\"$2a$10$7LfFx0RpjtKuCSKuyvYyre1d4XJCv1JHbOTXyXQ5Zi6MBnLrOg3M2\",\"email\":\"admin@admin.com\",\"id\":1,\"loggedAt\":\"2017-12-20T02:20:28.034Z\"}"
+    },
+    "AccessToken": {
+      "gtrDluHCLRSlVrwzAIGKYhc7SJdnFsDOAR2mxXq2vHqyqC6iRClB21tMq1chmQxN": "{\"id\":\"gtrDluHCLRSlVrwzAIGKYhc7SJdnFsDOAR2mxXq2vHqyqC6iRClB21tMq1chmQxN\",\"ttl\":1209600,\"created\":\"2017-12-07T20:33:30.719Z\",\"userId\":1}",
+      "x0E0aoOfzwLUJdvZgyFSxFw8W3pgnwWtIJH4QoUuTyxSIldOfAM6CFOdXFAzJocL": "{\"id\":\"x0E0aoOfzwLUJdvZgyFSxFw8W3pgnwWtIJH4QoUuTyxSIldOfAM6CFOdXFAzJocL\",\"ttl\":1209600,\"created\":\"2017-12-07T20:33:57.722Z\",\"userId\":1}",
+      "AJHOvflZqFOaAXUVE2LBO1aK2F91RGENBX7P2PkVRF9NGHYu8BeQLWWbmF0VreJy": "{\"id\":\"AJHOvflZqFOaAXUVE2LBO1aK2F91RGENBX7P2PkVRF9NGHYu8BeQLWWbmF0VreJy\",\"ttl\":1209600,\"created\":\"2017-12-07T20:35:01.528Z\",\"userId\":1}",
+      "WeOT3gZr6Xq8Zht5W8pYVH0Zo7ereytCSz1hPemmNqsNdfSms55e2443BuQfeaQE": "{\"id\":\"WeOT3gZr6Xq8Zht5W8pYVH0Zo7ereytCSz1hPemmNqsNdfSms55e2443BuQfeaQE\",\"ttl\":1209600,\"created\":\"2017-12-14T00:19:12.384Z\",\"userId\":1}",
+      "RBy33uMAkoVOBRUCKyJiSwiypquVfkdAKlCUZvMdFW6Ja7vCiKyOUi5XGfcRe60O": "{\"id\":\"RBy33uMAkoVOBRUCKyJiSwiypquVfkdAKlCUZvMdFW6Ja7vCiKyOUi5XGfcRe60O\",\"ttl\":1209600,\"created\":\"2017-12-20T02:20:28.013Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Categoria": {
+      "1": "{\"nombre\":\"Textile\",\"descripcion\":\"Remeras y zapatillas\",\"id\":1}",
+      "2": "{\"nombre\":\"Electro\",\"descripcion\":\"Cosas\",\"id\":2}"
+    },
+    "SubCategoria": {
+      "1": "{\"nombre\":\"Remeras\",\"descripcion\":\"Todos los talles\",\"categoriaId\":1,\"id\":1}",
+      "2": "{\"nombre\":\"Tecnologia\",\"categoriaId\":2,\"id\":2}"
+    },
+    "Comercio": {
+      "2": "{\"nombre\":\"Quicksilver1889\",\"descripcion\":\"Desde 1889\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\",\"title\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\",\"src\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\"}],\"subCategoriaId\":1,\"id\":2}"
+    },
+    "Usuario": {},
+    "Thing": {}
+  }
+}

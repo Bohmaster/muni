@@ -1,0 +1,38 @@
+{
+  "name": "Comercio",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "fotos": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "subCategoria": {
+      "type": "belongsTo",
+      "model": "SubCategoria",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

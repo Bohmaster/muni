@@ -1,0 +1,34 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 4,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Categoria": 2,
+    "SubCategoria": 2,
+    "Producto": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"Herny\",\"password\":\"$2a$10$FqHIApBnQktZTB43MhP46e2T1p4l5zICjiYpdv4Qk/Dd0kH0/38L6\",\"email\":\"admin@compumusic.com\",\"emailVerified\":false,\"id\":1}"
+    },
+    "AccessToken": {
+      "cv8B6EFdj7zu0jcpkCOJMAa1X2EDubPyHdW77ZNcjv0EUPxPQtSfywjUqQexHGDW": "{\"id\":\"cv8B6EFdj7zu0jcpkCOJMAa1X2EDubPyHdW77ZNcjv0EUPxPQtSfywjUqQexHGDW\",\"ttl\":1209600,\"created\":\"2017-08-16T04:33:17.618Z\",\"userId\":1}",
+      "nsKtUFtVPKxCMoelpENoJoPwNt3G4HYClOEKtZiCscSQPqdPTG2HJ1bPirUYZnuK": "{\"id\":\"nsKtUFtVPKxCMoelpENoJoPwNt3G4HYClOEKtZiCscSQPqdPTG2HJ1bPirUYZnuK\",\"ttl\":1209600,\"created\":\"2017-08-16T05:20:48.978Z\",\"userId\":1}",
+      "41lsEFgkajQfvHM6ZBmGpLZBXiluStyR8FM2x9uOUMf3GRRJ40bJQneGpafan0PA": "{\"id\":\"41lsEFgkajQfvHM6ZBmGpLZBXiluStyR8FM2x9uOUMf3GRRJ40bJQneGpafan0PA\",\"ttl\":1209600,\"created\":\"2017-08-16T05:24:38.977Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Categoria": {
+      "1": "{\"nombre\":\"Elctrónica\",\"id\":1}"
+    },
+    "SubCategoria": {
+      "1": "{\"nombre\":\"Informática\",\"categoriaId\":1,\"id\":1}"
+    },
+    "Producto": {
+      "1": "{\"nombre\":\"GTX 1080ti\",\"descripcion\":\"string\",\"precio\":\"string\",\"fotos\":\"string\",\"video\":\"string\",\"subCategoriaId\":1,\"id\":1}"
+    }
+  }
+}

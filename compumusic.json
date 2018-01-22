@@ -1,0 +1,56 @@
+{
+  "ids": {
+    "User": 3,
+    "AccessToken": 11,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Categoria": 4,
+    "SubCategoria": 3,
+    "Producto": 6,
+    "Usuario": 2,
+    "Thing": 2
+  },
+  "models": {
+    "User": {
+      "1": "{\"id\":1,\"username\":\"Herr\",\"password\":\"$2a$10$h4NYatZSYdHffkdiASaJBe.XBNnLs98tCpZsIu6sjPTd6/TjgcdXe\",\"email\":\"her@er.com\",\"nombre\":\"Hernán\"}",
+      "2": "{\"username\":\"admin\",\"password\":\"$2a$10$vb0kmbUu7pvXKKXy/BCJ0uV6giboiMIc2iR6RhAFo5LvSzLy7axHG\",\"email\":\"admin@admin.com\",\"id\":2,\"loggedAt\":\"2017-12-07T20:05:53.750Z\"}"
+    },
+    "AccessToken": {
+      "5MVEHplMuPrrWGqJiDENKSoxxewlEh1QLOhr0E4HjuUDoCAsEoZvWvv6Cgzq0cBE": "{\"id\":\"5MVEHplMuPrrWGqJiDENKSoxxewlEh1QLOhr0E4HjuUDoCAsEoZvWvv6Cgzq0cBE\",\"ttl\":1209600,\"created\":\"2017-08-16T18:28:55.426Z\",\"userId\":1}",
+      "PyBsm9SrAER9hJEPew8t1NQDKAuBOd71z0gXNIbShc3YIjGZFMnBfKGEcGoivFcv": "{\"id\":\"PyBsm9SrAER9hJEPew8t1NQDKAuBOd71z0gXNIbShc3YIjGZFMnBfKGEcGoivFcv\",\"ttl\":1209600,\"created\":\"2017-08-16T19:36:57.142Z\",\"userId\":1}",
+      "h9UoTj9FtCUnD6JX4LaB94S8RI9Lk2F1ioaasRB0cKAWRjIzztF3sbuKEBiYmU8v": "{\"id\":\"h9UoTj9FtCUnD6JX4LaB94S8RI9Lk2F1ioaasRB0cKAWRjIzztF3sbuKEBiYmU8v\",\"ttl\":1209600,\"created\":\"2017-08-17T00:04:55.065Z\",\"userId\":1}",
+      "iHGouGRPndpifqPubXGC3Vod2ARm3NpRG7bjkub5Afdtl3XZZsaTIB0vWhiTbTnZ": "{\"id\":\"iHGouGRPndpifqPubXGC3Vod2ARm3NpRG7bjkub5Afdtl3XZZsaTIB0vWhiTbTnZ\",\"ttl\":1209600,\"created\":\"2017-08-17T00:15:03.187Z\",\"userId\":1}",
+      "y9PiJtlaWZEgLJp1eG07LA12bsEdoHPLfIp3wG4136Hr0Vgv2Lk9eBQN5dJKzUft": "{\"id\":\"y9PiJtlaWZEgLJp1eG07LA12bsEdoHPLfIp3wG4136Hr0Vgv2Lk9eBQN5dJKzUft\",\"ttl\":1209600,\"created\":\"2017-08-17T00:15:13.879Z\",\"userId\":1}",
+      "LuHqd57aNXKE3tmghgWVsGXURzp9RljwTfXR32YbxexL2rkJSBubodm6gGwYKWTz": "{\"id\":\"LuHqd57aNXKE3tmghgWVsGXURzp9RljwTfXR32YbxexL2rkJSBubodm6gGwYKWTz\",\"ttl\":1209600,\"created\":\"2017-08-25T23:04:18.339Z\",\"userId\":1}",
+      "foHUmKO5qAgAvY98FZtLLMUeEJnOuC0BZFLMoYqs8ly1q345Y84k79HQrOCnVyxs": "{\"id\":\"foHUmKO5qAgAvY98FZtLLMUeEJnOuC0BZFLMoYqs8ly1q345Y84k79HQrOCnVyxs\",\"ttl\":1209600,\"created\":\"2017-12-07T20:02:41.698Z\",\"userId\":1}",
+      "LdoREnVkTFM5lGJxGAK9dPJDaslcvgNBkTqzroOwnkAM753Mn1X93F8dRAk19Ksn": "{\"id\":\"LdoREnVkTFM5lGJxGAK9dPJDaslcvgNBkTqzroOwnkAM753Mn1X93F8dRAk19Ksn\",\"ttl\":1209600,\"created\":\"2017-12-07T20:05:39.293Z\",\"userId\":2}",
+      "c8v4MZ7UH6JqiRVjRzjGvRzma1qijrbwDzzeJPiCPCYnEVUyQUfJOWNP0PHeyy0Y": "{\"id\":\"c8v4MZ7UH6JqiRVjRzjGvRzma1qijrbwDzzeJPiCPCYnEVUyQUfJOWNP0PHeyy0Y\",\"ttl\":1209600,\"created\":\"2017-12-07T20:05:53.744Z\",\"userId\":2}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Categoria": {
+      "1": "{\"nombre\":\"Tecnología\",\"descripcion\":\"Celulares, Insumos de Pc, Drones...\",\"id\":1}",
+      "2": "{\"nombre\":\"Instrumentos musicales\",\"descripcion\":\"Pianos, Baterías, Merca....\",\"id\":2}",
+      "3": "{\"nombre\":\"Seguridad\",\"descripcion\":\"Cámaras, Cerraduras\",\"id\":3}"
+    },
+    "SubCategoria": {
+      "1": "{\"nombre\":\"Computación\",\"descripcion\":\"Notebooks, Placas de video, Insumos Gamer...\",\"categoriaId\":1,\"id\":1}",
+      "2": "{\"nombre\":\"Cámaras\",\"descripcion\":\"Cámaras para monitoreo en residencias\",\"categoriaId\":3,\"id\":2}"
+    },
+    "Producto": {
+      "1": "{\"nombre\":\"Notebook ASUS m300\",\"descripcion\":\"16gb, I7 7000k, 1Tera, 17''\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (1).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download.jpg\"},{\"rawFile\":{\"preview\":\"blob:http://localhost:3000/05cdd86a-6314-4e78-8996-b3145d123b07\"},\"src\":\"blob:http://localhost:3000/05cdd86a-6314-4e78-8996-b3145d123b07\",\"title\":\"compra1.png\"}],\"subCategoriaId\":1,\"id\":1}",
+      "2": "{\"nombre\":\"Nokia v3\",\"descripcion\":\"16gb, 15mp\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\"}],\"subCategoriaId\":1,\"id\":2}",
+      "3": "{\"nombre\":\"Test\",\"descripcion\":\"test\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (1).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (1).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (1).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download.jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download.jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download.jpg\"}],\"subCategoriaId\":1,\"id\":3}",
+      "4": "{\"nombre\":\"Foscam v130\",\"descripcion\":\"720p, 16gb \",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\"}],\"subCategoriaId\":2,\"id\":4}",
+      "5": "{\"nombre\":\"Nombre\",\"descripcion\":\"Desc\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (5).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (4).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (3).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (3).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (3).jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/download (2).jpg\"}],\"subCategoriaId\":null,\"id\":5}"
+    },
+    "Usuario": {
+      "1": "{\"nombre\":\"\",\"username\":\"admin\",\"password\":\"$2a$10$tWOvFsbo/wA01slmP9kpquHWhu1VRqGpOegiRZYIGq5B8wzk85phO\",\"email\":\"admin@admin.com\",\"id\":1}"
+    },
+    "Thing": {
+      "1": "{\"propCustom\":\"123\",\"id\":1}"
+    }
+  }
+}

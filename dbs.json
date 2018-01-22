@@ -1,0 +1,57 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Categoria": 4,
+    "SubCategoria": 1,
+    "Producto": 22,
+    "Usuario": 2
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"Herr\",\"password\":\"$2a$10$hnQYN54vxTcJNrgImPzYWe5MSk0fXYAfJUsgEAdX5AOiNn3gmK0M6\",\"email\":\"herr@compumusi.com\",\"emailVerified\":false,\"nombre\":\"Hernan\",\"id\":1}"
+    },
+    "AccessToken": {
+      "5FquzxvQ0oTFV2l448s7kLI0jZlOnwXvgspWZxkZefZrDXCVHSf62HXd8olF3U6i": "{\"id\":\"5FquzxvQ0oTFV2l448s7kLI0jZlOnwXvgspWZxkZefZrDXCVHSf62HXd8olF3U6i\",\"ttl\":1209600,\"created\":\"2017-08-16T05:29:50.889Z\",\"userId\":1}",
+      "yicKspulqd61MG8gcdKiJa88yhP7ZHotDZPMr4bbhWCLROBR80uBWrUXY02VXg7w": "{\"id\":\"yicKspulqd61MG8gcdKiJa88yhP7ZHotDZPMr4bbhWCLROBR80uBWrUXY02VXg7w\",\"ttl\":1209600,\"created\":\"2017-08-16T05:32:07.387Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Categoria": {
+      "1": "{\"nombre\":\"sbae\",\"id\":1}",
+      "2": "{\"nombre\":\"sbae\",\"id\":2}",
+      "3": "{\"nombre\":\"sbae\",\"id\":3}"
+    },
+    "SubCategoria": {},
+    "Producto": {
+      "1": "{\"pictures\":[{\"rawFile\":{\"preview\":\"blob:http://localhost:3000/bae6af2d-7565-433f-8481-fd7862baf8f2\"},\"src\":\"blob:http://localhost:3000/bae6af2d-7565-433f-8481-fd7862baf8f2\",\"title\":\"fotoInicio2-p-1600x500.jpeg\"}],\"id\":1}",
+      "2": "{\"nombre\":\"ASD\",\"descripcion\":\"ASDASD\",\"fotos\":[\"[object Object]\"],\"id\":2}",
+      "3": "{\"fotos\":[\"[object Object]\",\"[object Object]\"],\"id\":3}",
+      "4": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":4}",
+      "5": "{\"fotos\":[\"[object Object]\"],\"id\":5}",
+      "6": "{\"fotos\":[\"[object Object]\"],\"id\":6}",
+      "7": "{\"fotos\":[\"[object Object]\",\"[object Object]\"],\"id\":7}",
+      "8": "{\"fotos\":[\"[object Object]\",\"[object Object]\"],\"id\":8}",
+      "9": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":9}",
+      "10": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":10}",
+      "11": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":11}",
+      "12": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":12}",
+      "13": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":13}",
+      "14": "{\"fotos\":[\"[object Object]\",\"[object Object]\"],\"id\":14}",
+      "15": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":15}",
+      "16": "{\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":16}",
+      "17": "{\"nombre\":\"adadada\",\"descripcion\":\"asdsadada\",\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":17}",
+      "18": "{\"nombre\":\"asdada\",\"descripcion\":\"adadad\",\"fotos\":[\"[object Object]\",\"[object Object]\",\"[object Object]\"],\"id\":18}",
+      "19": "{\"nombre\":\"Camara\",\"descripcion\":\"Accion\",\"fotos\":[\"flechas.png\"],\"id\":19}",
+      "20": "{\"nombre\":\"HELLO\",\"fotos\":[{\"nombre\":\"auriculares.png\"},{\"nombre\":\"downIcon.png\"}],\"id\":20}",
+      "21": "{\"nombre\":\"SI!\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/ingNos.png\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/course2.jpg\"},{\"nombre\":\"http://localhost:3005/api/containers/media/download/course1.jpg\"}],\"id\":21}"
+    },
+    "Usuario": {
+      "1": "{\"nombre\":\"Hernan\",\"username\":\"Herr\",\"password\":\"$2a$10$jhLVDA5IlsiV0NxoVR6y7unDyu9KEblRJJvgQi12pVfrwn2X4sjPu\",\"email\":\"herr@compumusi.com\",\"emailVerified\":false,\"id\":1}"
+    }
+  }
+}

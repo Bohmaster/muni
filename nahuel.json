@@ -1,0 +1,45 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Categoria": 2,
+    "SubCategoria": 2,
+    "Comercio": 2,
+    "Usuario": 1,
+    "Thing": 1,
+    "Promocion": 6,
+    "Novedad": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Categoria": {
+      "1": "{\"nombre\":\"Pachu\",\"descripcion\":\"y Pablo\",\"id\":1}"
+    },
+    "SubCategoria": {
+      "1": "{\"nombre\":\"Pablo\",\"descripcion\":\"ejjee\",\"categoriaId\":1,\"id\":1}"
+    },
+    "Comercio": {
+      "1": "{\"nombre\":\"QuickSilver\",\"descripcion\":\"sabela\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\",\"title\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\",\"src\":\"http://localhost:3005/api/containers/media/download/Quiksilver.png\"}],\"subCategoriaId\":1,\"id\":1}"
+    },
+    "Usuario": {},
+    "Thing": {},
+    "Promocion": {
+      "1": "{\"nombre\":\"Fiesta fiesta\",\"descripcion\":\"plima pluma gay\",\"imagen\":\"[object Object],[object Object]\",\"fecha\":null,\"comercioId\":1,\"id\":1}",
+      "2": "{\"nombre\":\"Sabeki\",\"descripcion\":\"sadlakñsdad\",\"imagen\":\"Quiksilver.png\",\"fecha\":null,\"comercioId\":1,\"id\":2}",
+      "3": "{\"nombre\":\"asdad\",\"descripcion\":\"asdadad\",\"imagen\":\"[object Object]\",\"fecha\":null,\"comercioId\":1,\"id\":3}",
+      "4": "{\"nombre\":\"asdasdad\",\"descripcion\":\"asdadadad\",\"imagen\":\"[object Object]\",\"fecha\":null,\"comercioId\":1,\"id\":4}",
+      "5": "{\"nombre\":\"13123123\",\"descripcion\":\"12313131313\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/Theboxtvlogo.jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/Theboxtvlogo.jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/Theboxtvlogo.jpg\"}],\"fecha\":null,\"comercioId\":1,\"id\":5}"
+    },
+    "Novedad": {
+      "1": "{\"titulo\":\"sadasda\",\"descripcion\":\"dasdadad\",\"fotos\":[{\"rawFile\":{\"preview\":\"blob:http://localhost:3000/3689090b-6599-411e-9c73-3efe9e59fd34\"},\"src\":\"blob:http://localhost:3000/3689090b-6599-411e-9c73-3efe9e59fd34\",\"title\":\"dq7l8bkme99e9v7a0yca.jpg\"}],\"cuerpo\":\"asdasdadsadadasd\",\"fecha\":null,\"id\":1}",
+      "2": "{\"titulo\":\"sadadad\",\"descripcion\":\"adadad\",\"fotos\":[{\"nombre\":\"http://localhost:3005/api/containers/media/download/dq7l8bkme99e9v7a0yca.jpg\",\"title\":\"http://localhost:3005/api/containers/media/download/dq7l8bkme99e9v7a0yca.jpg\",\"src\":\"http://localhost:3005/api/containers/media/download/dq7l8bkme99e9v7a0yca.jpg\"}],\"cuerpo\":\"asdadadad\",\"fecha\":null,\"id\":2}"
+    }
+  }
+}
